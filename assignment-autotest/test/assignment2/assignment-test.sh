@@ -10,13 +10,13 @@ pushd ${SOURCE_DIR}/finder-app
 make clean
 make
 
-./writer
+./writer.sh
 rc=$?
 if [ $rc -ne 1 ]; then
 	add_validate_error "writer should have exited with return value 1 if no parameters were specified"
 fi
 
-./writer "$filedir"
+./writer.sh "$filedir"
 rc=$?
 if [ $rc -ne 1 ]; then
 	add_validate_error "writer should have exited with return value 1 if write string is not specified"

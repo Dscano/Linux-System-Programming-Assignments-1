@@ -67,3 +67,98 @@ The number of files are 10 and the number of matching lines are 10
 success
 Validation failed with error list :writer should have exited with return value 1 if no parameters were specified:writer should have exited with return value 1 if write string is not specified
 Test of assignment assignment2 failed with rc=1
+Running test with user diaccio
+CMake Error: The current CMakeCache.txt directory /home/diaccio/git_mio/Linux-System-Programming-Assignments-1/build/CMakeCache.txt is different than the directory /home/diaccio/Linux_System_Programming/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/diaccio/git_mio/Linux-System-Programming-Assignments-1/CMakeLists.txt" does not match the source "/home/diaccio/Linux_System_Programming/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+[ 16%] Built target unity
+[100%] Built target assignment-autotest
+/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read dscano from conf/username.txt
+/home/diaccio/Linux_System_Programming/assignment-autotest/../student-test/assignment1/Test_validate_username.c:16:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/git_mio/Linux-System-Programming-Assignments-1/assignment-autotest/test/assignment2 ~/git_mio/Linux-System-Programming-Assignments-1
+~/git_mio/Linux-System-Programming-Assignments-1/finder-app ~/git_mio/Linux-System-Programming-Assignments-1/assignment-autotest/test/assignment2 ~/git_mio/Linux-System-Programming-Assignments-1
+make: *** No rule to make target 'clean'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+./assignment-autotest/test/assignment2/assignment-test.sh: line 13: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment2/assignment-test.sh: line 19: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+touch /tmp/aeld-data/dscano1.txt
+touch /tmp/aeld-data/dscano2.txt
+touch /tmp/aeld-data/dscano3.txt
+touch /tmp/aeld-data/dscano4.txt
+touch /tmp/aeld-data/dscano5.txt
+touch /tmp/aeld-data/dscano6.txt
+touch /tmp/aeld-data/dscano7.txt
+touch /tmp/aeld-data/dscano8.txt
+touch /tmp/aeld-data/dscano9.txt
+touch /tmp/aeld-data/dscano10.txt
+The number of files are 10 and the number of matching lines are 10
+success
+Validation failed with error list :writer should have exited with return value 1 if no parameters were specified:writer should have exited with return value 1 if write string is not specified
+Test of assignment assignment2 failed with rc=1
+Running test with user diaccio
+CMake Error: The current CMakeCache.txt directory /home/diaccio/git_mio/Linux-System-Programming-Assignments-1/build/CMakeCache.txt is different than the directory /home/diaccio/Linux_System_Programming/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/diaccio/git_mio/Linux-System-Programming-Assignments-1/CMakeLists.txt" does not match the source "/home/diaccio/Linux_System_Programming/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+[ 16%] Built target unity
+[100%] Built target assignment-autotest
+/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read dscano from conf/username.txt
+/home/diaccio/Linux_System_Programming/assignment-autotest/../student-test/assignment1/Test_validate_username.c:16:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/git_mio/Linux-System-Programming-Assignments-1/assignment-autotest/test/assignment2 ~/git_mio/Linux-System-Programming-Assignments-1
+~/git_mio/Linux-System-Programming-Assignments-1/finder-app ~/git_mio/Linux-System-Programming-Assignments-1/assignment-autotest/test/assignment2 ~/git_mio/Linux-System-Programming-Assignments-1
+make: *** No rule to make target 'clean'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+You must specify the writer file and write string
+You must specify the writer file and write string
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+touch /tmp/aeld-data/dscano1.txt
+touch /tmp/aeld-data/dscano2.txt
+touch /tmp/aeld-data/dscano3.txt
+touch /tmp/aeld-data/dscano4.txt
+touch /tmp/aeld-data/dscano5.txt
+touch /tmp/aeld-data/dscano6.txt
+touch /tmp/aeld-data/dscano7.txt
+touch /tmp/aeld-data/dscano8.txt
+touch /tmp/aeld-data/dscano9.txt
+touch /tmp/aeld-data/dscano10.txt
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment2 complete with success
