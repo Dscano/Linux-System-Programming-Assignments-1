@@ -1,0 +1,69 @@
+Running test with user diaccio
+-- Generating ;/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/diaccio/Linux_System_Programming/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/diaccio/Linux_System_Programming/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/diaccio/Linux_System_Programming/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/diaccio/Linux_System_Programming/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read dscano from conf/username.txt
+/home/diaccio/Linux_System_Programming/assignment-autotest/../student-test/assignment1/Test_validate_username.c:16:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Linux_System_Programming/assignment-autotest/test/assignment2 ~/Linux_System_Programming
+~/Linux_System_Programming/finder-app ~/Linux_System_Programming/assignment-autotest/test/assignment2 ~/Linux_System_Programming
+make: *** No rule to make target 'clean'.  Stop.
+make: *** No targets specified and no makefile found.  Stop.
+./assignment-autotest/test/assignment2/assignment-test.sh: line 13: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment2/assignment-test.sh: line 19: ./writer: No such file or directory
+[0;31mValidation Error:writer should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+touch /tmp/aeld-data/dscano1.txt
+touch /tmp/aeld-data/dscano2.txt
+touch /tmp/aeld-data/dscano3.txt
+touch /tmp/aeld-data/dscano4.txt
+touch /tmp/aeld-data/dscano5.txt
+touch /tmp/aeld-data/dscano6.txt
+touch /tmp/aeld-data/dscano7.txt
+touch /tmp/aeld-data/dscano8.txt
+touch /tmp/aeld-data/dscano9.txt
+touch /tmp/aeld-data/dscano10.txt
+The number of files are 10 and the number of matching lines are 10
+success
+Validation failed with error list :writer should have exited with return value 1 if no parameters were specified:writer should have exited with return value 1 if write string is not specified
+Test of assignment assignment2 failed with rc=1
